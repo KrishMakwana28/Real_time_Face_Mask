@@ -28,7 +28,7 @@ Real_time_Face_Mask/
 
 │── mask_detector.h5 # Trained classification model
 
-│── deploy.prototxt # Face detector config
+│── deploy.prototxt AND res10_300x300_ssd_iter_140000.caffemodel # Face detector config
 
 │── res10_300x300_ssd_iter_140000.caffemodel # Face detector weights
 
