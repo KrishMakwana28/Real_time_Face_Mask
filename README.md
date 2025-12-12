@@ -26,11 +26,17 @@ Real-time Inference: Applying the trained model to live video feeds to draw boun
 ## 📂 Project Structure
 Real_time_Face_Mask/
 │── mask_detector.h5 # Trained classification model
+
 │── deploy.prototxt # Face detector config
+
 │── res10_300x300_ssd_iter_140000.caffemodel # Face detector weights
+
 │── facemaskdetection.ipynb # Real-time mask detection script/jupyternotebook
+
+
 │── plot.png # Model training_accuracy/loss curves
 │── requirements.txt
+
 │── README.md
 -Add your dataset in facemaskdetection.ipynb
 
