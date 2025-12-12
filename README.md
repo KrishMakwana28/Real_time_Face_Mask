@@ -43,6 +43,7 @@ jupyter notebook facemaskdetectionsystem.ipynb
 Use code with caution.
 
 Run the cells:Follow the instructions within the notebook to load the model, prepare the input data, and start the real-time detection loop using your webcam.
+
 Things to Do/Notebook Guide
 The following tasks are handled within the main notebook (facemaskdetectionsystem.ipynb):
 Environment Setup: Ensure you are running Python 3.10.
@@ -50,6 +51,7 @@ Data Loading: Instructions on loading the pre-processed dataset.
 Model Training & Evaluation: Steps for running the CNN training cycle.
 Real-time Detection: Code to initialize the webcam stream and apply the trained model for inference.
 Path Management: Remember to adjust model paths in the code where specified by comments to point to your local file structure.
+
 Dataset Information
 The model in this repository was trained using data sourced from public domain datasets. You can find suitable datasets for training and testing at the following resources:
 Kaggle: Excellent source for curated machine learning datasets, often including face mask specific compilations. Explore the Kaggle website using search terms like "face mask detection".
@@ -66,6 +68,7 @@ Open a Pull Request
 
 Contact
 Krish Makwana -https://github.com/KrishMakwana28
+
 Project Link: github.com
 
 Acknowledgments
