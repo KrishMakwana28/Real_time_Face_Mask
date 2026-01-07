@@ -49,7 +49,7 @@ Real_time_Face_Mask/
 ## 🛠️ Installation
 
 ### 1. Clone the Repository
-```bash
+
 git clone https://github.com/KrishMakwana28/Real_time_Face_Mask.git
 cd Real_time_Face_Mask
 
