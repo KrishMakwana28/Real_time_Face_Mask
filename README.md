@@ -53,7 +53,7 @@ Real_time_Face_Mask/
 git clone https://github.com/KrishMakwana28/Real_time_Face_Mask.git
 cd Real_time_Face_Mask
 
-Create Virtual Environment (Recommended)
+## Create Virtual Environment (Recommended)
 python_env - 3.10
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
@@ -70,7 +70,7 @@ Classify each face as with_mask or without_mask
 
 Display bounding boxes with colors and labels
 
-📊 Model Performance
+## 📊 Model Performance
 Metric	Score
 Accuracy	99%
 Precision	0.99
@@ -81,7 +81,7 @@ Evaluated on a dataset containing both mask and no-mask samples.
 
 The training plot is shown below:
 
-🧠 Dataset Information
+## 🧠 Dataset Information
 
 This project uses a mask/no-mask image dataset containing:
 
@@ -95,7 +95,7 @@ Data augmentation applied
 
 You can replace or extend the dataset to improve accuracy.
 
-🧪 Model Architecture
+## 🧪 Model Architecture
 
 Backbone: MobileNetV2
 
@@ -107,7 +107,7 @@ Loss Function: Binary Crossentropy
 
 This architecture is optimized for speed + accuracy, making it ideal for real-time applications.
 
-📦 Training the Model (Optional)
+## 📦 Training the Model (Optional)
 
 If you want to retrain the model:
 
@@ -118,7 +118,7 @@ facemaskdetection.ipynb
 
 (Ensure dataset is in the correct folder structure)
 
-📸 Demo Output
+## 📸 Demo Output
 
 Green box → Mask Detected
 
@@ -127,13 +127,11 @@ Red box → No Mask
 FPS optimized for smooth performance
 
 
-
-
-📜 License
+## 📜 License
 
 This project is open-source and available.
 
-✨ Author
+## ✨ Author
 
 Krish Makwana - https://github.com/KrishMakwana28
 Feel free to reach out for suggestions or improvements.
